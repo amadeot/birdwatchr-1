@@ -1,0 +1,14 @@
+[
+  {
+    "bird_name": "Red Hawk",
+    "sighting_date": "2016-01-10",
+    "location": "New York, NY",
+    "gps_location":{ "lat" : 40.7127837, "lng" : -74.0059413 }
+  },
+  {
+    "bird_name":"Pidgey",
+    "sighting_date":"2016-01-11",
+    "location": "New York, NY",
+    "gps_location":{ "lat" : 40.7127837, "lng" : -74.0059413 }
+  }
+]

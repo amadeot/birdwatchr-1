@@ -3,11 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>BirdWatchr</title>
+  <script type="text/javascript" src="/bower_components/jquery/dist/jquery.js"></script>
+  <script src="handlebars/handlebars.min.js"></script>
   <script src="/js/main.js"></script>
 </head>
 <body>
   <h1>Birds of NY</h1>
   <a href="/sightings/new">Spotted a bird?</a>
+  <div id="last-3-birds">
+    <script id="latest-birds-template" type="text/x-handlebars">
+      <div class="each-bird">
+        <p>Bird Name: {{bird_name}}</p>
+        <p>Sighted On: {{sighting_date}}</p>
+        <p>Sighted At: {{location}} ({{gps_location.lat}}, {{gps_location.lng}})</p>
+      </div>
+    </script>
+  </div>
 </body>
 </html>
 
